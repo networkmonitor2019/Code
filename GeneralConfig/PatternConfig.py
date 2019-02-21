@@ -23,7 +23,7 @@ monitor_info_fmt will be instantiated as truncate-point-num_truncate-step which 
 we will truncate initial solutions at truncate-step * 1, ..., truncate-step * truncate-point-num. 
 """
 
-graph_name_str = unit_sep.join(['graph_title', 'name'])
+graph_name_str = unit_sep.join(['graph', 'name'])
 
 model_type_str = unit_sep.join(['model', 'type'])
 instance_num_str = unit_sep.join(['instance', 'num'])
