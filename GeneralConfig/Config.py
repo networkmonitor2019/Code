@@ -8,7 +8,7 @@ from math import ceil
 general_dir = '../../Test_Data'
 
 # graph_title directory
-graph_dir = path.join(general_dir, 'graph_title')
+graph_dir = path.join(general_dir, 'graph')
 create_dir(graph_dir)
 
 # graph_title scale log is used to store the graph_name, node number, edge number
