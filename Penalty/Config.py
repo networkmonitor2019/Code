@@ -1,7 +1,7 @@
 from Code.GeneralConfig.Config import *
 from Code.GeneralConfig.PatternConfig import unit_sep
 
-graph_id_list = os.listdir(graph_dir)
+graph_id_list = listdir(graph_dir)
 methods = ['LS', 'CSAV++', 'clc', 'deg']
 
 penalty_dir = path.join(general_dir, 'penalty')
